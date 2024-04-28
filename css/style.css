@@ -1,0 +1,45 @@
+/* body {
+  overflow: hidden;
+} */
+/* ?=======> nav Box */
+
+.side-bar ul li a {
+  cursor: pointer;
+}
+
+.side-bar ul li {
+  padding: 10px 0px;
+  font-size: 18px;
+}
+.left-bott-icons i {
+  cursor: pointer;
+  padding-right: 10px;
+}
+.close-btn {
+  cursor: pointer;
+}
+
+.nav_Box {
+  background-color: #f1f1f1;
+  left: 0;
+  height: 100vh;
+  transition: left 500ms;
+  z-index: 99999999;
+}
+.nav_Box ul {
+  color: inherit;
+  list-style: none;
+}
+.gear-icon {
+  height: 100vh;
+  width: 80px;
+  font-size: 25px;
+  position: absolute;
+  top: 0px;
+  right: -65px;
+  color: #0e0606;
+}
+.gear× {
+  cursor: pointer;
+}
+/* !=======> search */
